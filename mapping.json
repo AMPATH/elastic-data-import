@@ -1,0 +1,79 @@
+{
+   "obs": {
+            "properties": {
+               "@timestamp": {
+                  "type": "date",
+                  "format": "dateOptionalTime"
+               },
+               "@version": {
+                  "type": "string"
+               },
+               "concept_id": {
+                  "type": "long"
+               },
+               "creator": {
+                  "type": "long"
+               },
+               "date_created": {
+                  "type": "date",
+                  "format": "dateOptionalTime"
+               },
+               "location_id": {
+                  "type": "long"
+               },
+               "location_uuid": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "form_id": {
+                  "type": "long"
+               },
+               "form_uuid": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "encounter_type": {
+                  "type": "long"
+               },
+               "encounter_type_uuid": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "obs_datetime": {
+                  "type": "date",
+                  "format": "dateOptionalTime"
+               },
+               "obs_id": {
+                  "type": "long"
+               },
+               "person_id": {
+                  "type": "long"
+               },
+               "birthdate": {
+                  "type": "date",
+                  "format": "dateOptionalTime"
+               },
+               "gender": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "person_uuid": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "uuid": {
+                  "type": "string",
+                  "index" : "not_analyzed"
+               },
+               "value": {
+                  "type": "string"
+               },
+               "value_numeric": {
+                  "type": "double"
+               },
+               "voided": {
+                  "type": "boolean"
+               }
+            }
+         }
+}
